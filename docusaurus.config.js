@@ -16,15 +16,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://gpt.nav8.top",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rockbenben", // Usually your GitHub org/user name.
-  projectName: "ChatGPT-Shortcut", // Usually your repo name.
+  organizationName: "koltluo", // Usually your GitHub org/user name.
+  projectName: "ChatGPT-Prompt", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -65,7 +65,7 @@ const config = {
     /* [
       "docusaurus2-plugin-google-adsense",
       {
-        dataAdClient: "ca-pub-7585955822109216",
+        dataAdClient: "ca-pub-4470609607748010",
       },
     ], */
     "./plugins/piwik.js",
@@ -85,9 +85,9 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "AI prompts",
         logo: {
-          alt: "ChatGPT Shortcuts",
+          alt: "ChatGPT prompts",
           src: "img/logo.svg",
         },
         items: [
@@ -160,7 +160,7 @@ const config = {
             className: "header-discord-link",
           },
           {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
+            href: "https://github.com/koltluo/ChatGPT-Shortcut",
             position: "right",
             className: "header-github-link",
           },
@@ -168,7 +168,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} AiShort (ChatGPT Shortcut)`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ai Prompts (ChatGPT Shortcut)`,
       },
       prism: {
         theme: prismThemes.github,
